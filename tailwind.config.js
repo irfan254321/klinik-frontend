@@ -2,8 +2,8 @@
 module.exports = {
   content: [
     'index.html',
-    './assets/navbar/*.{html,js,jsx,ts,tsx}',
-    './assets/script/*.{html,js,jsx,ts,tsx}',
+    './assets/**/*.{html,js}',
+    './assets/**/**/*.{html,js}',
   ],
   theme: {
     extend: {},
